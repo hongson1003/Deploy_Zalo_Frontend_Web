@@ -71,7 +71,7 @@ const NewAccountModal = ({ children }) => {
       layout="vertical"
     >
 
-<Form.Item
+      <Form.Item
         label="Họ và tên"
         name="userName"
         rules={[
@@ -85,7 +85,7 @@ const NewAccountModal = ({ children }) => {
       </Form.Item>
 
       <Form.Item
-        label="Phone"
+        label="Số điện thoại"
         name="phoneNumber"
         rules={[
           {
@@ -101,7 +101,7 @@ const NewAccountModal = ({ children }) => {
       </Form.Item>
 
       <Form.Item
-        label="Password"
+        label="Mật khẩu"
         name="password"
         rules={[
           {
@@ -114,7 +114,7 @@ const NewAccountModal = ({ children }) => {
 
       {/* Field */}
       <Form.Item
-        label="Confirm Password"
+        label="Nhập lại mật khẩu"
         name="password2"
         dependencies={['password']}
         rules={[
